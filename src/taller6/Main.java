@@ -2,15 +2,12 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package otroPaquete;
+package taller6;
 
-import taller6.Empleado;
-
-public class Prueba {
+public class Main {
     public static void main(String[] args) {
 
-        Empleado e = new Empleado("Ana", 3000);
-
-        System.out.println(e.nombre);
+        Gerente g = new Gerente("Carlos", 5000, "Sistemas");
+        g.mostrarInformacion();
     }
 }

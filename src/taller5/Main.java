@@ -4,15 +4,14 @@
  */
 package taller5;
 
-/**
- *
- * @author Acer
- */
 public class Main {
     public static void main(String[] args) {
 
-        Producto p1 = new Producto("Laptop", 2500, 10);
-        p1.mostrarInfo();
+        Persona p = new Persona("Alex", 20);
+
+        System.out.println(p.edad); // ✅ funciona (default)
+        // System.out.println(p.nombre); ❌ ERROR (private)
+
+        System.out.println(p.getNombre()); // ✅ correcto
     }
-    
 }
